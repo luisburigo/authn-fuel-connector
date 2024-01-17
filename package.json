@@ -1,0 +1,19 @@
+{
+  "name": "@webauthn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "turbo run build"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.15"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
